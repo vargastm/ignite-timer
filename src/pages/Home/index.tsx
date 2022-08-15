@@ -20,7 +20,7 @@ const newCycleFormValidationSchema = zod.object({
 
 export function Home() {
   const { register, handleSubmit, watch } = useForm({
-    resolver: zodResolver(),
+    resolver: zodResolver(newCycleFormValidationSchema),
   })
   
   function handleCreateNewCycle(data: any) {
