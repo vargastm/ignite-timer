@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HistoryContainer = styled.main`
-  flex:1;
+  flex: 1;
   padding: 3.5rem;
 
   display: flex;
@@ -64,7 +64,7 @@ export const HistoryList = styled.div`
 const STATUS_COLORS = {
   yellow: 'yellow-500',
   green: 'green-500',
-  red: 'red-500'
+  red: 'red-500',
 } as const
 
 interface StatusProps {
